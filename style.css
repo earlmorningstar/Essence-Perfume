@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Avestan&family=Open+Sans:wght@300;400;500&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Avestan&family=Open+Sans:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edebe4;
+  height: 100vh;
+}
+
+.overall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 330px 80px 330px;
+  height: 100%;
+}
+
+.text-container {
+  background-color: #ffffff;
+  height: 450px;
+  padding: 32px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.img-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.perfume-text {
+  font-family: "Montserrat", sans-serif;
+  color: #6c7289;
+  font-size: 12.8px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.gabrielle-text {
+  font-family: "Fraunces", serif;
+  color: #1c232b;
+  font-size: 35.2px;
+  font-weight: 700;
+  line-height: 35px;
+  padding-bottom: 25px;
+}
+
+.floral-text {
+  font-family: "Montserrat", sans-serif;
+  color: #6c7289;
+  font-size: 14.4px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-bottom: 25px;
+}
+
+.dollar-container{
+    display: flex;
+}
+
+.first-dollar{
+    font-family: "Fraunces", serif;
+    color: #3d8067;
+    font-size: 35.2px;
+    font-weight: 700;
+    padding: 2px 25px 0 0;
+}
+
+.second-dollar{
+    font-family: "Montserrat", sans-serif;
+    color: #6c7289;
+    font-size: 12.8px;
+    font-weight: 500;
+    text-decoration: line-through;
+    padding-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    color: #f2ebe3;
+    background-color: #3d8067;
+    padding: 18px 70px;
+    border: 2px;
+    border-radius: 7px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13.3px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #1b4737;
+    transition: all .25s ease-in;
+}
+
+.button1 {
+    padding-top: 20px;
+}
